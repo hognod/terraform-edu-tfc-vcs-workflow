@@ -12,3 +12,7 @@ variable "instance_type" {
   description = "Specifies the AWS instance type."
   default     = "t3.micro"
 }
+
+variable "region" {}
+variable "access_key" {}
+variable "secret_key" {}
