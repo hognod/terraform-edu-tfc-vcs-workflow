@@ -1,16 +1,3 @@
-terraform {
-  cloud {
-    organization = "DDIM-ORG"       # 생성한 ORG 이름 지정
-    hostname = "app.terraform.io"   # default
-
-    workspaces {
-      name = "terraform-edu"        # 없을 경우 생성됨
-    }
-  }
-}
-
-
-
 resource "aws_vpc" "main" {
   cidr_block = var.address_space
   enable_dns_support = true
