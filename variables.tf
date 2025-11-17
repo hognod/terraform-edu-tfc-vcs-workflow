@@ -1,6 +1,6 @@
 variable "prefix" {
   description = "This prefix will be included in the name of most resources."
-  default = "tfc-vcs"
+  default = "tfc-vcs-test"
 }
 
 variable "address_space" {
